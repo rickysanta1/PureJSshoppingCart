@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WebCart</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>WebCart</h1>
+      <button aria-label="open">open</button>
+      <input class="search" id="search" type="search" placeholder="Buscar..." />
+
+      <label class="icon" for="search"
+        ><a id="icon" href="#">🔍</a>
+
+        <!-- -->
+      </label>
+
+      <input class="menu-toggle" id="menu-toggle" type="checkbox" />
+      <label class="menu-button-container" for="menu-toggle">
+        <div class="menu-button"></div>
+      </label>
+      <ul class="menu">
+        <li class="menu-li">One</li>
+        <li class="menu-li">Two</li>
+        <li class="menu-li">Three</li>
+        <li class="menu-li">Four</li>
+        <li class="menu-li">Five</li>
+      </ul>
+    </header>
+    <nav role="navigation">
+      <div class="nav"></div>
+    </nav>
+    <main>
+      <div class="card-container"></div>
+      <div class="pagination"></div>
+      <!--<div class="2lista"></div>
+       <div class="wave">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+      </div> -->
+      <!-- <div class="parent white">
+        <div class="card yellow">
+          <h3>Titulo Card 1</h3>
+          <p contenteditable>
+            Medium length description with a few more words here.
+          </p>
+          <div class="visual pink"></div>
+        </div>
+        <div class="card yellow">
+          <h3>Title - Card 2</h3>
+          <p contenteditable>
+            Long Description. Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit.
+          </p>
+          <div class="visual blue"></div>
+        </div>
+        <div class="card yellow">
+          <h3>Title - Card 3</h3>
+          <p contenteditable>Short Description.</p>
+          <div class="visual green"></div>
+        </div>
+      </div> -->
+
+      <dialog>
+        <form>
+          <button
+            type="submit"
+            aria-label="close"
+            formmethod="dialog"
+            formnovalidate
+          >
+            X
+          </button>
+        </form>
+        <p>In Cart</p>
+      </dialog>
+      <!-- <button>Show the dialog</button> -->
+    </main>
+
+    <footer>footer</footer>
+    <script type="module" src="src/index.js"></script>
+  </body>
+</html>
